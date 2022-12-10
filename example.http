@@ -1,0 +1,19 @@
+GET http://localhost:3000/api/posts
+
+# POST http://localhost:3000/api/posts/store
+# content-type: application/json
+
+# {
+#     "title": "Judul Kedua",
+#     "content": "Isi Judul Kedua"
+# }
+
+# PATCH http://localhost:3000/api/posts/update/1
+# content-type: application/json
+
+# {
+#     "title": "Judul Pertama Update",
+#     "content": "Isi Judul Pertama Update"
+# }
+
+# DELETE http://localhost:3000/api/posts/delete/2 HTTP/1.1
